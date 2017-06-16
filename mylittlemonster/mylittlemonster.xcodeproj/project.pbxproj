@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3278A261D7F04AC0090116D /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3278A251D7F04AC0090116D /* MonsterImg.swift */; };
+		C32F66251D7E85370016422E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F66241D7E85370016422E /* AppDelegate.swift */; };
+		C32F66271D7E85370016422E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32F66261D7E85370016422E /* ViewController.swift */; };
+		C32F662A1D7E85370016422E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32F66281D7E85370016422E /* Main.storyboard */; };
+		C32F662C1D7E85370016422E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32F662B1D7E85370016422E /* Assets.xcassets */; };
+		C32F662F1D7E85370016422E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32F662D1D7E85370016422E /* LaunchScreen.storyboard */; };
+		C331ED9C1D7ED6AA00E315C6 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331ED9B1D7ED6AA00E315C6 /* DragImg.swift */; };
+		C37C77031D884D3100DC3B77 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = C37C76FE1D884D3100DC3B77 /* bite.wav */; };
+		C37C77041D884D3100DC3B77 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C37C76FF1D884D3100DC3B77 /* cave-music.mp3 */; };
+		C37C77051D884D3100DC3B77 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = C37C77001D884D3100DC3B77 /* death.wav */; };
+		C37C77061D884D3100DC3B77 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = C37C77011D884D3100DC3B77 /* heart.wav */; };
+		C37C77071D884D3100DC3B77 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = C37C77021D884D3100DC3B77 /* skull.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3278A251D7F04AC0090116D /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
+		C32F66211D7E85370016422E /* mylittlemonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mylittlemonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32F66241D7E85370016422E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32F66261D7E85370016422E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32F66291D7E85370016422E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32F662B1D7E85370016422E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32F662E1D7E85370016422E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32F66301D7E85370016422E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C331ED9B1D7ED6AA00E315C6 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		C37C76FE1D884D3100DC3B77 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		C37C76FF1D884D3100DC3B77 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		C37C77001D884D3100DC3B77 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		C37C77011D884D3100DC3B77 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		C37C77021D884D3100DC3B77 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32F661E1D7E85370016422E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32F66181D7E85370016422E = {
+			isa = PBXGroup;
+			children = (
+				C32F66231D7E85370016422E /* mylittlemonster */,
+				C32F66221D7E85370016422E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32F66221D7E85370016422E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32F66211D7E85370016422E /* mylittlemonster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32F66231D7E85370016422E /* mylittlemonster */ = {
+			isa = PBXGroup;
+			children = (
+				C37C76FE1D884D3100DC3B77 /* bite.wav */,
+				C37C76FF1D884D3100DC3B77 /* cave-music.mp3 */,
+				C37C77001D884D3100DC3B77 /* death.wav */,
+				C37C77011D884D3100DC3B77 /* heart.wav */,
+				C37C77021D884D3100DC3B77 /* skull.wav */,
+				C32F66241D7E85370016422E /* AppDelegate.swift */,
+				C32F66261D7E85370016422E /* ViewController.swift */,
+				C32F66281D7E85370016422E /* Main.storyboard */,
+				C32F662B1D7E85370016422E /* Assets.xcassets */,
+				C32F662D1D7E85370016422E /* LaunchScreen.storyboard */,
+				C32F66301D7E85370016422E /* Info.plist */,
+				C331ED9B1D7ED6AA00E315C6 /* DragImg.swift */,
+				C3278A251D7F04AC0090116D /* MonsterImg.swift */,
+			);
+			path = mylittlemonster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32F66201D7E85370016422E /* mylittlemonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32F66331D7E85370016422E /* Build configuration list for PBXNativeTarget "mylittlemonster" */;
+			buildPhases = (
+				C32F661D1D7E85370016422E /* Sources */,
+				C32F661E1D7E85370016422E /* Frameworks */,
+				C32F661F1D7E85370016422E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mylittlemonster;
+			productName = mylittlemonster;
+			productReference = C32F66211D7E85370016422E /* mylittlemonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32F66191D7E85370016422E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nut Aroonrunangaram";
+				TargetAttributes = {
+					C32F66201D7E85370016422E = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = C32F661C1D7E85370016422E /* Build configuration list for PBXProject "mylittlemonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32F66181D7E85370016422E;
+			productRefGroup = C32F66221D7E85370016422E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32F66201D7E85370016422E /* mylittlemonster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32F661F1D7E85370016422E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37C77071D884D3100DC3B77 /* skull.wav in Resources */,
+				C37C77031D884D3100DC3B77 /* bite.wav in Resources */,
+				C37C77051D884D3100DC3B77 /* death.wav in Resources */,
+				C37C77061D884D3100DC3B77 /* heart.wav in Resources */,
+				C37C77041D884D3100DC3B77 /* cave-music.mp3 in Resources */,
+				C32F662F1D7E85370016422E /* LaunchScreen.storyboard in Resources */,
+				C32F662C1D7E85370016422E /* Assets.xcassets in Resources */,
+				C32F662A1D7E85370016422E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32F661D1D7E85370016422E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3278A261D7F04AC0090116D /* MonsterImg.swift in Sources */,
+				C331ED9C1D7ED6AA00E315C6 /* DragImg.swift in Sources */,
+				C32F66271D7E85370016422E /* ViewController.swift in Sources */,
+				C32F66251D7E85370016422E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C32F66281D7E85370016422E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32F66291D7E85370016422E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32F662D1D7E85370016422E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32F662E1D7E85370016422E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32F66311D7E85370016422E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32F66321D7E85370016422E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32F66341D7E85370016422E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = mylittlemonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nut.Aroon.mylittlemonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C32F66351D7E85370016422E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = mylittlemonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nut.Aroon.mylittlemonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32F661C1D7E85370016422E /* Build configuration list for PBXProject "mylittlemonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32F66311D7E85370016422E /* Debug */,
+				C32F66321D7E85370016422E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32F66331D7E85370016422E /* Build configuration list for PBXNativeTarget "mylittlemonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32F66341D7E85370016422E /* Debug */,
+				C32F66351D7E85370016422E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32F66191D7E85370016422E /* Project object */;
+}

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="favotite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkk" translatesAutoresizingMaskIntoConstraints="NO" id="9UD-Y2-h42"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ItZ-r1-1mj">
+                                <frame key="frameInset" minX="20" minY="28" width="291" height="229"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="4IA-hu-lxq">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUTDOOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Da-t7-aMN">
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADVENTURES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qI2-Du-QQQ">
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESERT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEk-F7-NR7">
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="48S-1e-fQz">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BANGKOK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIn-uV-WSW">
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                                <color key="textColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="7P2-Lq-3O9">
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="4TV-6d-yhV"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.44999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THAILAND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbJ-qH-2bF">
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dt-Gb-4aN">
+                                <color key="backgroundColor" red="0.013406815007328987" green="0.47966843843460083" blue="0.99926894903182983" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="51O-Ik-sIq"/>
+                                    <constraint firstAttribute="width" constant="200" id="CNt-qP-aSB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="PHOTOS">
+                                    <color key="titleColor" red="0.9999127984046936" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="4xP-s6-YDm" kind="show" id="ahK-Dl-jAN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTL-wG-wiS">
+                                <frame key="frameInset" minX="88" minY="525" width="198" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="BUn-8X-cG5"/>
+                                    <constraint firstAttribute="height" constant="30" id="p4D-zW-Hss"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="ABOUT BANGKOK">
+                                    <color key="titleColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="H0x-Ur-Nj8" kind="show" id="tXp-1M-MU1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9UD-Y2-h42" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CVb-Cw-pxr"/>
+                            <constraint firstItem="0dt-Gb-4aN" firstAttribute="top" secondItem="MTL-wG-wiS" secondAttribute="top" constant="60" id="Hxw-rP-gCN"/>
+                            <constraint firstAttribute="trailing" secondItem="9UD-Y2-h42" secondAttribute="trailing" id="NGR-z7-QYL"/>
+                            <constraint firstItem="ItZ-r1-1mj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nta-RT-5u9"/>
+                            <constraint firstItem="ItZ-r1-1mj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="amG-fQ-TNg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9UD-Y2-h42" secondAttribute="bottom" id="bHX-Ti-5yF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0dt-Gb-4aN" secondAttribute="bottom" constant="53" id="cJA-Gb-R3p"/>
+                            <constraint firstItem="9UD-Y2-h42" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eSv-70-fMd"/>
+                            <constraint firstItem="MTL-wG-wiS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fiS-Nh-Ndp"/>
+                            <constraint firstItem="0dt-Gb-4aN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g9N-io-wWV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="moreBtn" destination="MTL-wG-wiS" id="REt-CF-Z3O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="121.88905547226388"/>
+        </scene>
+        <!--PhotoVC-->
+        <scene sceneID="g5S-GW-1ig">
+            <objects>
+                <viewController id="4xP-s6-YDm" customClass="PhotoVC" customModule="favotite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8uC-AZ-UxS"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fu-4y-Eqi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DCc-Nw-RNu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JM6-9o-xpl">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bangkok" translatesAutoresizingMaskIntoConstraints="NO" id="HWw-v8-7bi"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bangkok2" translatesAutoresizingMaskIntoConstraints="NO" id="G88-3z-BT5"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bangkok3" translatesAutoresizingMaskIntoConstraints="NO" id="Xs9-yC-aiC"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bangkok4" translatesAutoresizingMaskIntoConstraints="NO" id="5wo-iP-H4l"/>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpy-JX-6er">
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="4xP-s6-YDm" eventType="touchUpInside" id="pyX-xx-JMB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="JM6-9o-xpl" secondAttribute="bottom" id="CGs-Jd-G5k"/>
+                            <constraint firstItem="hpy-JX-6er" firstAttribute="top" secondItem="8uC-AZ-UxS" secondAttribute="bottom" id="HqT-LH-hkq"/>
+                            <constraint firstItem="JM6-9o-xpl" firstAttribute="leading" secondItem="DCc-Nw-RNu" secondAttribute="leadingMargin" constant="-20" id="J86-UJ-tr1"/>
+                            <constraint firstItem="JM6-9o-xpl" firstAttribute="top" secondItem="8uC-AZ-UxS" secondAttribute="bottom" id="WDx-NE-7ji"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JM6-9o-xpl" secondAttribute="trailing" constant="-20" id="hF0-5B-QZO"/>
+                            <constraint firstItem="hpy-JX-6er" firstAttribute="leading" secondItem="DCc-Nw-RNu" secondAttribute="leadingMargin" id="vcC-UT-ZEN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PcO-mS-rid" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029" y="534"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="NXs-sH-rJr">
+            <objects>
+                <viewController id="H0x-Ur-Nj8" customClass="DetailVC" customModule="favotite_place" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H3g-6w-KKA"/>
+                        <viewControllerLayoutGuide type="bottom" id="52e-fE-R5a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5BB-VJ-1Vi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkk2" translatesAutoresizingMaskIntoConstraints="NO" id="ad6-53-Det">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="CAA-7Z-b6i"/>
+                                    <constraint firstAttribute="height" constant="128" id="nq1-fJ-cWX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT BANGKOK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4b-ia-NyE">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="Cfv-C7-TQC"/>
+                                    <constraint firstAttribute="height" constant="21" id="FUi-T2-JlH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjh-zf-CTv">
+                                <frame key="frameInset" minX="16" minY="20" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" red="0.99999600648880005" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressedWithSender:" destination="H0x-Ur-Nj8" eventType="touchUpInside" id="PPX-oJ-q18"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9Ox-iS-KVH">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="9XU-3Q-OFT">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2A-Y6-nEG">
+                                                <frame key="frameInset" width="110" height="24"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="6.355 million" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPC-71-mgx">
+                                                <frame key="frameInset" minY="24" width="97" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fVd-37-TQ0">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AS9-BA-NK4">
+                                                <frame key="frameInset" width="76" height="40"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHq-nn-1mE">
+                                                <frame key="frameInset" minY="50" width="342" height="218"/>
+                                                <mutableString key="text">Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, home to opulent Grand Palace and its sacred Wat Phra Kaew Temple. Nearby is Wat Pho Temple with an enormous reclining Buddha and, on the opposite shore, Wat Arun Temple with its steep steps and Khmer-style spire.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1kO-ek-pkL">
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="THINGS TO DO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOX-VF-pyb">
+                                                <frame key="frameInset" width="124" height="28"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Grand Palace , Khaosan Road , Yaowarat Road , CentralWorld" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jj0-s4-VBh">
+                                                <frame key="frameInset" minY="38" width="319" height="40"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ad6-53-Det" secondAttribute="trailing" id="AvA-9j-3jD"/>
+                            <constraint firstItem="9Ox-iS-KVH" firstAttribute="top" secondItem="ad6-53-Det" secondAttribute="bottom" constant="80" id="EFa-9D-o9E"/>
+                            <constraint firstItem="s4b-ia-NyE" firstAttribute="top" secondItem="H3g-6w-KKA" secondAttribute="bottom" constant="60" id="Iti-WC-eeE"/>
+                            <constraint firstItem="9Ox-iS-KVH" firstAttribute="leading" secondItem="5BB-VJ-1Vi" secondAttribute="leadingMargin" id="Iyx-ms-CpK"/>
+                            <constraint firstItem="s4b-ia-NyE" firstAttribute="centerX" secondItem="5BB-VJ-1Vi" secondAttribute="centerX" id="Wnh-Hw-arg"/>
+                            <constraint firstItem="Tjh-zf-CTv" firstAttribute="top" secondItem="H3g-6w-KKA" secondAttribute="bottom" id="XLq-Ja-ufp"/>
+                            <constraint firstItem="Tjh-zf-CTv" firstAttribute="leading" secondItem="5BB-VJ-1Vi" secondAttribute="leadingMargin" id="hWp-3Y-BJV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Ox-iS-KVH" secondAttribute="trailing" id="mJJ-vT-ROe"/>
+                            <constraint firstItem="ad6-53-Det" firstAttribute="top" secondItem="5BB-VJ-1Vi" secondAttribute="top" id="nC5-io-Smu"/>
+                            <constraint firstItem="52e-fE-R5a" firstAttribute="top" secondItem="9Ox-iS-KVH" secondAttribute="bottom" constant="50" id="sf8-RP-HRy"/>
+                            <constraint firstItem="ad6-53-Det" firstAttribute="leading" secondItem="5BB-VJ-1Vi" secondAttribute="leading" id="wun-AH-HZ7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTu-ds-ftX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1037.5999999999999" y="-206.44677661169416"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bangkok" width="5216" height="3257"/>
+        <image name="bangkok2" width="1400" height="788"/>
+        <image name="bangkok3" width="1280" height="800"/>
+        <image name="bangkok4" width="1293" height="866"/>
+        <image name="bkk" width="1200" height="800"/>
+        <image name="bkk2" width="1200" height="800"/>
+        <image name="compass" width="35" height="35"/>
+    </resources>
+</document>
